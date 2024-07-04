@@ -1,4 +1,4 @@
-package main
+package variables
 
 var greeting string = "Hello, World!"
 var number int = 33
@@ -15,3 +15,8 @@ const (
 	F = 4.555
 	G = "Hello"
   )
+
+  func Change() {
+	greeting = "Hello, Universe!"
+	println(greeting)
+	  }
