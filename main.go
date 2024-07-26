@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"learn-go/variables"
 	"learn-go/arrays"
+	"learn-go/conditions"
 	"learn-go/slice"
+	"learn-go/variables"
 )
 
 func main() {
@@ -15,6 +16,7 @@ func main() {
 	arrays.PriceChange()
 	slice.Slice()
 	slice.Memory()
+	conditions.Nested_if()
 }
 
 // Run the code
